@@ -1,0 +1,140 @@
+
+  
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .slick-prev {
+    display: none;
+}
+.slick-next {
+    display: none;
+}
+
+/* Make dots container centered and spaced */
+.slick-dots {
+    bottom: 15px;
+    display: flex !important;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Hide default list styling */
+  .slick-dots li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Dot button (circle) */
+  .slick-dots li button {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: none;
+    transition: all 0.3s ease;
+    font-size: 0;
+  }
+  
+  /* On hover */
+  .slick-dots li button:hover {
+    background-color: #999;
+    transform: scale(1.2);
+  }
+  
+  /* Active dot */
+  .slick-dots li.slick-active button {
+    background-color: #000; /* Bootstrap primary */
+    width: 18px;
+    height: 18px;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+  }
+  .slick-dots li button:before{font-size: 0;}
+  
+  .banner {
+    background-color: #ffe138;
+    padding: 60px 0;
+  }
+  .banner-child {
+    background-color: #38ffe3;
+    padding: 60px 0;
+}
+  .banner-img {
+    max-width: 100%;
+    border-radius: 12px 120px 0px 120px !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+ 
+
+.banner h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: emoji;
+}
+  .banner p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  .btn-custom {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+   transition: 0.5s;
+  }
+  .btn-custom:hover {
+    background-color: #fff;
+    color: #000000;
+    margin-top: 2px !important;
+    border: 1px solid #000;
+  }  
+
+
+  .services {
+    background-color: #f8f9fa;
+  }
+  
+  .services .card {
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .services .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .text-purple {
+    color: #7952b3; /* Bootstrap purple */
+  }
+
+  .projects{padding: 60px 0px;
+    background: #f2e0fd;}
+  .projects .card {
+    transition: transform 0.3s ease;
+    padding: 15px;
+    border: 1px solid #020000;
+    border-radius: 20px;
+    background-color: #ffffff;
+
+    img{    border: 1px solid #bababa;
+        border-radius: 10px;}
+
+        h5 {
+            font-size: 1.6rem;
+            font-family: serif;
+            letter-spacing: 2px;
+        }
+        .btn-primary{    border-radius: 20px;
+            padding: 6px 20px;
+            background: #ff8996;
+            border-color: snow;}
+}
+  
+  .projects .card:hover {
+    transform: translateY(-5px);
+  }
+  
