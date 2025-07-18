@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL=/react-start/" />
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      // Redirect all 404s to your homepage route so React Router can handle it
+      sessionStorage.redirect = location.href;
+      location.replace("/react-start/");
+    </script>
   </head>
   <body>
+    <p>Redirecting to homepage...</p>
   </body>
 </html>
